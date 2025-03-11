@@ -1,13 +1,54 @@
-body {
-  font-family: "Noto Serif", "Times New Roman", serif;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
 
   font-family: "Inter", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 16px;
   line-height: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  padding: 30px 80px 40px;
+  /* padding: 100px 0 140px; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.nav__logo {
+  /* position: absolute; */
+  height: 105px;
+  width: 39px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  top: 20px;
+  right: 80px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  height: 8px;
 }
