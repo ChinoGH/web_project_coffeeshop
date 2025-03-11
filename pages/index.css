@@ -52,3 +52,14 @@
   font-weight: bold;
   height: 8px;
 }
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__description {
+}
+
+.header__paragraph {
+}
