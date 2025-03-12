@@ -13,6 +13,8 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
   padding: 30px 80px 40px;
@@ -20,30 +22,27 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  position: relative;
+  box-sizing: border-box;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  position: relative;
-  top: 30px;
-  left: 30px;
 }
 
 .nav__logo {
-  /* position: absolute; */
   height: 105px;
   width: 39px;
 }
 
 .nav__links {
+  margin: 8px 0 0;
   display: flex;
   column-gap: 20px;
   list-style-type: none;
   padding: 0;
-  position: relative;
-  top: 20px;
-  right: 80px;
 }
 
 .nav__link {
@@ -51,6 +50,14 @@
   text-decoration: none;
   font-weight: bold;
   height: 8px;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
 }
 
 .header__title {
