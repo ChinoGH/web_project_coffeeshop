@@ -88,3 +88,7 @@
 
 .header__address {
 }
+
+.recipes__iframe {
+  border: 0;
+}
