@@ -4,7 +4,7 @@
   margin: auto;
 
   font-family: "Inter", Arial, sans-serif;
-  font-family: "Noto Serif", "Times New Roman", serif;
+  /* font-family: "Noto Serif", "Times New Roman", serif; */
   font-size: 16px;
   line-height: 20px;
 }
@@ -66,6 +66,10 @@
   max-width: 709px;
 
   margin-bottom: 0;
+}
+
+.header__span-tilte {
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .header__description {
