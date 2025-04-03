@@ -119,9 +119,18 @@
   padding: 100px;
 }
 
-form {
+.form {
+  /*Asignar aquí todos los demás estilos*/
 }
 
 .reservation__form {
   /*definir los márgenes*/
+}
+
+.form__lable {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
